@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <!--<test thread-count="5" name="Test"> --> 
+<test name="Group A">  
+<groups>  
+<run>  
+<include name="Group A"/>  
+</run>  
+</groups>
+</test>
+<test name="Group B">  
+<groups>  
+<run>  
+<include name="Group B"/>  
+</run>  
+</groups>  
+
+    <classes>
+      <class name="PractiseOfTestNg.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

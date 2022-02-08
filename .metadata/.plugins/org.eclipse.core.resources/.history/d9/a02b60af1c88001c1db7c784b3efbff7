@@ -1,0 +1,14 @@
+package com.POM.pages;
+
+public class Pagee {
+	private LoginPage loginPage;
+	
+	public LoginPage getLoginPage() {
+		if(loginPage == null)
+		{
+			loginPage = getLoginPage() ; 
+		}
+		return loginPage;
+	}
+
+}

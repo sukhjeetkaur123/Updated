@@ -1,0 +1,27 @@
+package Seleniumpkg;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class WorkBookDemoSeesion {
+	String path;
+	void readExcelSheet() throws Exception {
+		path =System.getProperty("user")+"//TestLoginData//TestData.xlsx";
+		FileInputStream f1 = new FileInputStream(path);
+		XSSFWorkbook wr = new XSSFWorkbook(f1);
+		XSSFSheet sh = wr.getSheet("TestData.xlsx");
+		System.out.println(" the sheet last row number is:"+sh.getLastRowNum());
+		
+		
+		
+	}
+	public static void main(String[] args) throws Exception {
+		WorkBookDemoSeesion wk = new WorkBookDemoSeesion();
+		wk.readExcelSheet();
+	}
+	
+
+}

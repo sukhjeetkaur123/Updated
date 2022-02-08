@@ -1,0 +1,8 @@
+package com.POM.tests;
+
+import com.testBase.TestBase;
+
+public class KeepTrying extends TestBase {
+	pages.getLoginPage().login();
+
+}

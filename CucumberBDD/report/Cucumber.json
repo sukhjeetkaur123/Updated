@@ -1,0 +1,83 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "chech the login functionality with valid credentails",
+        "description": "",
+        "id": "chechking-login-functionality-of-application;chech-the-login-functionality-with-valid-credentails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23601915300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login.user_on_ogin_oage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125671400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the username into username field",
+            "match": {
+              "location": "Login.enterUserName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114993400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the password into password field",
+            "match": {
+              "location": "Login.enterPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5290054600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on login button",
+            "match": {
+              "location": "Login.clickOnLoginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13835100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on home page",
+            "match": {
+              "location": "Login.verifyTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "chechking login functionality of application",
+    "description": "",
+    "id": "chechking-login-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/SukhjeetKaur/eclipse-workspace/CucumberBDD/src/test/java/featureFiles/login.feature",
+    "tags": []
+  }
+]

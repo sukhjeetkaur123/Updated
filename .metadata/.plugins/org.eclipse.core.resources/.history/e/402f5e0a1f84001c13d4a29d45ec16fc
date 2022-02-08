@@ -1,0 +1,21 @@
+package Seleniumpkg;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Runner extends Snycronise_method{
+    public static void main(String [] sss){
+//        initBrowser("https://opensource-demo.orangehrmlive.com/");
+        WebElement userName= driver.findElement(By.xpath("//input[@id=\"txtUsername\"]"));
+        WebElement password = driver.findElement(By.xpath("//input[@id=\"txtPassword\"]"));
+        WebElement clickOnSubmitButton=driver.findElement(By.xpath("//input[@id=\"btnLogin\"]"));
+
+        enterValue(driver,userName,1,"Admin");
+        enterValue(driver,password,1,"admin123");
+        clickEvent(driver,clickOnSubmitButton,2);
+
+    }
+}
+
+
+

@@ -1,0 +1,35 @@
+package Seleniumpkg;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class WorkBookDemoSeesion {
+	String path;
+	
+//	FileInputStream fs = new FileInputStream("D:\\DemoFile.xlsx");
+	//Creating a workbook
+//	XSSFWorkbook workbook = new XSSFWorkbook(fs);
+//	XSSFSheet sheet = workbook.getSheetAt(0);
+	void readExcelSheet() throws Exception {
+//		path =System.getProperty("user.dir")+"//TestLoginData//TestData.xlsx";
+		FileInputStream f1 = new FileInputStream("C:\\Users\\SukhjeetKaur\\eclipse-workspace\\Test1\\TestLoginData");
+		XSSFWorkbook wr = new XSSFWorkbook(f1);
+		XSSFSheet sh = wr.getSheet("TestData.xlsx");
+		System.out.println(" the sheet last row number is:"+sh.getLastRowNum());
+		
+//		String row = sh.getRow(1).getCell(0).getStringCellValue();
+		for(int i =0;i<=sh.getLastRowNum();i++) {
+			System.out.println(sh.getRow(1).getCell(0).getStringCellValue());
+			System.out.println(sh.getRow(1).getCell(1).getStringCellValue());
+		}
+	}
+	public static void main(String[] args) throws Exception {
+		WorkBookDemoSeesion wk = new WorkBookDemoSeesion();
+		wk.readExcelSheet();
+	}
+	
+
+}

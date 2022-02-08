@@ -1,0 +1,21 @@
+package com.POM.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.testBase.TestBase;
+
+public class HomePage extends TestBase{
+	@FindBy(partialLinkText = "Welcome")
+	WebElement clickOnprofile;
+	@FindBy(linkText = "Logout")
+	WebElement logutButton;
+	
+	
+	public void logout() {
+		clickOnprofile.click();
+		logutButton.click();
+		
+	}
+ 
+}

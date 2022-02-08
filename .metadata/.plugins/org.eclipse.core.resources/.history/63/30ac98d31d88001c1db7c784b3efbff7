@@ -1,0 +1,13 @@
+package com.POM.tests;
+
+import org.testng.annotations.BeforeSuite;
+
+import com.testBase.TestBase;
+
+public class KeepTrying extends TestBase {
+
+	@BeforeSuite
+	public void launch() {
+		intialization();
+		page.getLogin
+}

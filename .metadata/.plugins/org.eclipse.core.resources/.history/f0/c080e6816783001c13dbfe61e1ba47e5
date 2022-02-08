@@ -1,0 +1,16 @@
+package PractiseOfTestNg;
+
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class DemoParaMeterAnnotation {
+	@Test
+	@Parameter({"userName","pass"})
+	public void getValueFormXml(String name,String password) {
+		System.out.println(name);
+		System.out.println(password);
+		
+	}
+
+}

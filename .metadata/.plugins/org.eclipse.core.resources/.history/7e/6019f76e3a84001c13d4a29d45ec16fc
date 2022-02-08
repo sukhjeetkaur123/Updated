@@ -1,0 +1,40 @@
+package Groups;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class PractiseOfGroups {
+	{
+		String path;
+		WebDriver driver;
+		@BeforeSuite
+		public void Launch() {
+		path =System.getProperty("user.dir")+"//driver//chromedriver.exe";
+		System.out.println(path);
+		
+		System.setProperty("webdriver.chrome.driver", path);
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+	}
+		@Test(groups= {"Smoke"})
+		public void login() 
+		{
+			System.out.println("Login Page");
+		}
+		
+		@Test(groups= {"Regression"})
+		public void logout()
+		{
+			System.out.println("Logout Page");
+		}
+		@AfterSuite
+		public void close()
+		{
+			driver.close();
+		}
+
+}

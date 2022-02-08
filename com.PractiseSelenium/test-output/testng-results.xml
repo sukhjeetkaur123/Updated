@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-07T08:01:46Z" name="Suite" finished-at="2022-02-07T08:02:02Z" duration-ms="15717">
+    <groups>
+    </groups>
+    <test started-at="2022-02-07T08:01:46Z" name="Test" finished-at="2022-02-07T08:02:02Z" duration-ms="15717">
+      <class name="pages.HomePage">
+        <test-method signature="VerifyPage()[pri:0, instance:pages.HomePage@8462f31]" started-at="2022-02-07T08:02:00Z" name="VerifyPage" finished-at="2022-02-07T08:02:00Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPage -->
+        <test-method signature="Logout()[pri:0, instance:pages.HomePage@8462f31]" started-at="2022-02-07T08:02:00Z" name="Logout" finished-at="2022-02-07T08:02:02Z" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- pages.HomePage -->
+      <class name="pages.LoginPage">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:pages.LoginPage@4d1c005e]" started-at="2022-02-07T08:01:28Z" name="LaunchBrowser" finished-at="2022-02-07T08:01:46Z" duration-ms="17807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="forgetpass()[pri:0, instance:pages.LoginPage@4d1c005e]" started-at="2022-02-07T08:01:50Z" name="forgetpass" finished-at="2022-02-07T08:01:52Z" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpass -->
+        <test-method signature="Login()[pri:0, instance:pages.LoginPage@4d1c005e]" started-at="2022-02-07T08:01:52Z" name="Login" finished-at="2022-02-07T08:02:00Z" duration-ms="8072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:pages.LoginPage@4d1c005e]" started-at="2022-02-07T08:02:03Z" name="Close_Browser" finished-at="2022-02-07T08:02:04Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

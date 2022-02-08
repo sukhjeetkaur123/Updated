@@ -1,0 +1,26 @@
+content_assist_add_import=true
+content_assist_autoactivation=true
+content_assist_autoactivation_delay=0
+content_assist_autoactivation_triggers_java=.
+content_assist_autoactivation_triggers_javadoc=@\#
+content_assist_autoinsert=true
+content_assist_case_sensitivity=false
+content_assist_disable_completion_trigger_chars=true
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_fill_method_arguments=true
+content_assist_guess_method_arguments=false
+content_assist_insert_completion=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="collection.ArrayList"><rhs name\="collection.ArrayList"/></lhs><lhs name\="Seleniumpkg.AssignmentBBc"><rhs name\="Seleniumpkg.AssignmentBBc"/></lhs><lhs name\="com.graphbuilder.struc.LinkedList"><rhs name\="com.graphbuilder.struc.LinkedList"/></lhs><lhs name\="org.apache.poi.ss.usermodel.Workbook"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="java.io.Closeable"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="org.apache.poi.ss.usermodel.Date1904Support"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="org.apache.poi.ooxml.POIXMLDocument"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="org.apache.poi.ooxml.POIXMLDocumentPart"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"><rhs name\="org.apache.poi.xssf.usermodel.XSSFWorkbook"/></lhs><lhs name\="Seleniumpkg.XpathRelatedAssignemnt"><rhs name\="Seleniumpkg.XpathRelatedAssignemnt"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.util.concurrent.TimeUnit"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.util.concurrent.TimeUnit"/></lhs><lhs name\="workBookSession.WrkBookReadandWriteData"><rhs name\="workBookSession.WrkBookReadandWriteData"/></lhs><lhs name\="collection.ReplaceWithStar"><rhs name\="collection.ReplaceWithStar"/></lhs><lhs name\="org.openqa.selenium.support.ui.FluentWait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="org.openqa.selenium.support.ui.Wait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="org.openqa.selenium.support.ui.WebDriverWait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="org.openqa.selenium.SearchContext"><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="org.openqa.selenium.WebDriver"><rhs name\="org.openqa.selenium.firefox.FirefoxDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="pom.myPages.Page"><rhs name\="pom.myPages.BasePage"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.FileInputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.util.Hashtable"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Dictionary"><rhs name\="java.util.Properties"/></lhs><lhs name\="java.util.Properties"><rhs name\="java.util.Properties"/></lhs><lhs name\="com.testBase.TestBase"><rhs name\="com.POM.pages.HomePage"/><rhs name\="com.POM.pages.LoginPage"/></lhs><lhs name\="com.POM.pages.LoginPage"><rhs name\="com.POM.pages.LoginPage"/></lhs><lhs name\="pom.myPages.MyDemoWorkBook"><rhs name\="pom.myPages.MyDemoWorkBook"/></lhs><lhs name\="com.POM.pages.HomePage"><rhs name\="com.POM.pages.HomePage"/></lhs><lhs name\="com.POM.PageFactory.ObjectFactory"><rhs name\="com.POM.PageFactory.ObjectFactory"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_prefix_completion=false
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+content_assist_show_visible_proposals=true
+content_assist_sorter=org.eclipse.jdt.ui.RelevanceSorter
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+sourceHoverBackgroundColor=255,255,225
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

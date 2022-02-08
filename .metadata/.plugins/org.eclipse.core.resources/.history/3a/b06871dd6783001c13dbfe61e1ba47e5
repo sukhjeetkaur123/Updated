@@ -1,0 +1,18 @@
+package PractiseOfTestNg;
+
+
+import org.testng.annotations.Parameters;
+
+
+
+
+public class DemoParaMeterAnnotation {
+
+	@Parameters({"userName","password"})
+	public void getValueFormXml(String name,String password) {
+		System.out.println(name);
+		System.out.println(password);
+		
+	}
+
+}

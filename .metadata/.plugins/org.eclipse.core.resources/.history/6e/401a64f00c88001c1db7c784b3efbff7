@@ -1,0 +1,20 @@
+package com.testBase;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class TestBase {
+	public static Properties prop;
+	public static WebDriver driver;
+	
+	public TestBase() {
+		try {
+		FileInputStream fis = new FileInputStream(file)
+	}
+    catch(Exception e) {
+    	e.printStackTrace();
+    }
+}

@@ -1,0 +1,38 @@
+package xpathFacebook;
+import org.apache.commons.lang.RandomStringUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.util.List;
+
+
+
+public class xpathaxes
+{
+WebDriver driver= new ChromeDriver();
+String fName = RandomStringUtils.randomAlphabetic(10);
+String mno = RandomStringUtils.randomNumeric(10);
+String userPass = RandomStringUtils.randomAlphanumeric(10);
+
+
+
+public void assign() throws InterruptedException {
+driver.get("https://www.google.co.in/");
+driver.navigate().to("https://www.facebook.com/");
+driver.manage().window().maximize();
+driver.findElement(By.linkText("Create New Account")).click();
+Thread.sleep(2000);
+
+//Q1- Finding signup button in Facebook website by Child method
+driver.findElement(By.xpath("//div[@class='_1lch']//button[@type='submit']")).click();
+Thread.sleep(2000);
+}
+public static void main(String[] args) throws InterruptedException
+{
+WebDriverManager.chromiumdriver().setup();
+xpathaxes A= new xpathaxes();
+A.assign();
+}
+}
